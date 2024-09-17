@@ -1,6 +1,6 @@
 # SwitchDemo
 
-Welcome to the SwitchDemo project! This project demonstrates the implementation and usage of a switch component in a [platform or technology, e.g., .NET MAUI, React, etc.]. The goal of SwitchDemo is to provide a simple, reusable component that can be integrated into various applications.
+Welcome to the SwitchDemo project! This project demonstrates the implementation and usage of a switch component in a [platform or technology, e.g., .NET MAUI]. The goal of SwitchDemo is to provide a simple, reusable component that can be integrated into various applications.
 
 ## Features
 
