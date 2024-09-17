@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SwitchDemo.BorderPage"
+             Title="BorderPage">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="25" Padding="30, 0" VerticalOptions="Center">
+            <Label Text="BORDER" VerticalOptions="Center" FontFamily="Arial Black"
+                   HorizontalOptions="Center" TextColor="#440099" FontSize="50" FontAttributes="Bold"/>
+            <Border Stroke="Green" Background="Orange" StrokeThickness="5" HeightRequest="150"
+                    WidthRequest="150"/>
+            <Border Stroke="Red" Background="Yellow" StrokeThickness="5"
+                    StrokeShape="RoundRectangle 0, 75, 75, 75" HeightRequest="150" WidthRequest="150"/>
+            <Image Source="dotnet_bot.png" HeightRequest="200" HorizontalOptions="Center"/>
+            <Border Stroke="Black" StrokeThickness="10">
+                <Image Source="dotnet_bot.png" HeightRequest="200" HorizontalOptions="Center"/>
+            </Border>
+
+            <Border Stroke="Blue" StrokeThickness="10" StrokeShape="RoundRectangle 45, 0, 0, 45">
+                <Image Source="dotnet_bot.png" HeightRequest="200" HorizontalOptions="Center"/>
+            </Border>
+
+            <Border Stroke="Red" StrokeThickness="10" StrokeShape="Ellipse 300, 200"
+                    StrokeDashArray="2, 1" StrokeDashOffset="1">
+                <Image Source="dotnet_bot.png" HeightRequest="200" HorizontalOptions="Center"/>
+            </Border>
+
+            <Border Stroke="Blue" StrokeThickness="20" StrokeShape="RoundRectangle 0, 50, 50, 0">
+                <Label Text=".NET MAUI Practicum" FontSize="Large" FontAttributes="Bold"
+                       WidthRequest="325" HeightRequest="100" HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center" BackgroundColor="DarkOrchid" TextColor="White"/>
+            </Border>
+
+            <Border Stroke="Orange" StrokeThickness="5">
+                <HorizontalStackLayout Spacing="20" Margin="10">
+                    <Image Source="dotnet_bot.png" HeightRequest="100" WidthRequest="150"/>
+
+                    <VerticalStackLayout VerticalOptions="Center" Spacing="15">
+                        <Label Text="Grand Canyon" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                        <Label Text="Arizona" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                    </VerticalStackLayout>
+                </HorizontalStackLayout>
+            </Border>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
